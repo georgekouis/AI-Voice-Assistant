@@ -1,0 +1,21 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hello", "Hello There", "How is it going", "Hi"],
+     "responses": ["Hello, how can I help you today?", "What's up friend?"]},
+
+    {"tag": "pizza_flavor",
+     "patterns": ["Pizza flavor", "Pizzas", "What flavors of pizza do you have?", "What kind of pizzas do you have?"],
+     "responses": ["Pepperoni Pizza", "Margarita", "Barbeque", "Italian Pizza"]}, 
+    
+    {"tag": "extra_ingredients",
+     "patterns": ["Pepperoni", "Bacon", "Cheece", "Mushrooms"],
+     "responses": ["We will add them with pleasure!", "We happily add them!"]},
+     
+    {"tag": "show_pizza",
+     "patterns": ["Show my pizza", "I want to see my pizza", "View my pizza"],
+     "responses": [""]}, 
+      
+    {"tag": "exit",
+     "patterns": ["I want to exit", "Leave", "Bye"],
+     "responses": [""]}  
+]}
